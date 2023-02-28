@@ -10,7 +10,7 @@
 
 :root{
     --white: #fff;
-    -grey: #4b5163;
+    --grey: #4b5163;
 }
 
 body{
@@ -52,6 +52,9 @@ a:visited{
     width: 100%;
     height: 100%;
     background-image: url("Media/cover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: color;
 }
 
 video{
@@ -96,4 +99,26 @@ video{
 #click:hover{
     /* change the size of the element */
     transform: scale(0.95);
+}
+
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+#about h2{
+    margin: 40px 0;
+    color: var(--grey);
+    /* #4b5163 */
+}
+
+i{
+    font-size: 48px;
+    margin: 0 10px;
 }
