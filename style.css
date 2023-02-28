@@ -48,3 +48,28 @@ a:visited{
     height: 100%;
     background-image: url("Media/cover.png");
 }
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    /* The object-fit property determines how a video or image is resized to fit inside its container. Setting the value to "cover" causes the video to retain aspect ration and fill the given dimension */
+    object-fit: cover;
+}
+
+#cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0 , 0, 0.7);
+}
+
+#content{
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
