@@ -10,6 +10,7 @@
 
 :root{
     --white: #fff;
+    -grey: #4b5163;
 }
 
 body{
@@ -82,5 +83,17 @@ video{
     /* Inline-block allows you to set top and bottom margin as well as width and height. This is not the case for inline */
     display: inline-block;
     margin-top: 25px;
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
+    padding: 10px 30px;
+    background-color: var(--grey);
+    /* "a" elements will not inherit text color like other text elements will. Must apply directly */
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#click:hover{
+    /* change the size of the element */
+    transform: scale(0.95);
 }
